@@ -1,0 +1,32 @@
+body {
+  background-image: url('images/coveryoga.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat";
+}
+
+a:any-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+
+a:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.container {
+  height: 900px;
+}
+
+.text {
+  transform: translate(100px, 300px);
+}
+
+.footer {
+  text-align: center;
+  transform: translateY(800px);
+}

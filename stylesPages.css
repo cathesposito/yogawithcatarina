@@ -1,0 +1,223 @@
+body {
+  background-color: #fff;
+  font-family: "Montserrat";
+}
+
+h1{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.h1Ed1{
+  left: 43%;
+}
+
+.h1Ed2{
+  left: 34%;
+}
+
+.h1Ed3{
+  left: 38%;
+}
+
+.h1Ed4{
+  left: 37%;
+}
+
+.h1Ed5{
+  left: 39%;
+}
+
+p {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+
+/* Nav bar */
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+a.homeButton{
+  font-size: 1.5rem;
+  padding: 8px;
+  padding-bottom: 15px;
+  color: rgb(179, 227, 250);
+  text-decoration: none;
+
+}
+a.homeButton:hover {
+  font-weight: bold;
+
+}
+
+a.p-2, a.anchorInstLink, a.anchorFooter {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+
+a.p-2:hover {
+  font-weight: bold;
+  color: black;
+}
+
+a.anchorInstLink:hover{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+a.anchorBC{
+  text-decoration: none;
+  font-size: 2rem;
+  color: rgb(179, 227, 250);
+}
+
+a.anchorBC:hover{
+  font-size: 2.5rem;
+}
+
+a.anchorFooter:hover {
+  font-size: 1.2rem;
+}
+
+.centerLink{
+  align-self: center;
+}
+
+.sidebar{
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
+  box-shadow: 0 20px 18px #888888;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.instagramLink{
+  background-color: rgb(179, 227, 250);
+  background-color: rgba(179, 227, 250, 0.5);
+  border-radius: 10% 30% 50% 70%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.paddingCM{
+  padding-top: 180px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.iconsFun{
+  margin-left: 230px;
+  margin-right: auto;
+  border-radius: 50%;
+  background-color: rgb(179, 227, 250);
+  background-color: rgba(179, 227, 250, 0.3);
+}
+
+.col-2{
+  text-align: center;
+  position: relative;
+}
+
+.margin1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.margin2{
+  margin-right: 100px;
+}
+
+img{
+  width: 90%;
+}
+
+
+/* Top container */
+
+.top-container{
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: auto;
+  justify-content: center;
+  position: relative;
+
+}
+
+.topPic{
+  width: 95%;
+
+}
+
+/* Middle Container */
+.middle-container{
+  margin-top: 20px;
+}
+
+.firstRow{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.alignRight{
+  text-align: right ;
+}
+
+.middlePic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Bottom Container */
+.bottom-container{
+  margin-left: 250px;
+  margin-right: 81px;
+  text-align: center;
+}
+
+/* Footer Section */
+.footer{
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1% 10%;
+  margin-left: 250px;
+  margin-right: 81px;
+
+}
+
+.center{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.margin-250{
+  margin-left: 250px;
+  margin-right: 81px;
+}
+
+
+@media screen and (max-width: 1600px) {
+  h1{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1{
+    font-size: 1.5rem;
+  }
+}
