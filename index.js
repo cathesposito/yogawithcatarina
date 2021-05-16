@@ -1,5 +1,5 @@
-if (window.matchMedia("(max-width: 1024px)").matches) {
-  document.getElementById("background").style.backgroundImage =  "url('images/covermobile.png')";
+if (window.matchMedia("(max-width: 1000px)").matches) {
+  $("body").addClass("background2");
   function positionMobile(i) {
 
     var image = ".image" + i;
@@ -17,7 +17,8 @@ if (window.matchMedia("(max-width: 1024px)").matches) {
 
 
 } else {
-  document.getElementById("background").style.backgroundImage =  "url('images/coveryoga.png')";
+  $("body").addClass("background1");
+
   $("button").click(function() {
     $("#text").toggle("slow");
     if ($(".hide").css("visibility") == "visible")

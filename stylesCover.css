@@ -1,9 +1,18 @@
 body {
   font-family: "Montserrat";
+}
+
+.background1{
   background-image: url("images/coveryoga.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.background2{
+  background-image: url("images/covermobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a:any-link {
@@ -27,7 +36,6 @@ a:hover {
 }
 
 @media screen and (min-width: 540px) {
-
 
   .container {
     height: 2000px;
