@@ -26,11 +26,8 @@ a:hover {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-  body{
-    background-image: url("images/covermobile.png");
-    background-position: inherit;
-  }
+@media screen and (min-width: 540px) {
+
 
   .container {
     height: 2000px;
@@ -43,19 +40,13 @@ a:hover {
 }
 
 @media screen and (min-width: 992px) {
-  body {
-    background-image: url("images/coveryoga.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
 
   .container {
     height: 900px;
   }
 
   .text {
-    transform: translate(50px, 320px);
+    transform: translate(50px, 300px);
     font-size: 1rem;
   }
 }

@@ -1,4 +1,5 @@
-if (window.matchMedia("(max-width: 1000px)").matches) {
+if (window.matchMedia("(max-width: 1024px)").matches) {
+  document.getElementById("background").style.backgroundImage =  "url('images/covermobile.png')";
   function positionMobile(i) {
 
     var image = ".image" + i;
@@ -16,6 +17,7 @@ if (window.matchMedia("(max-width: 1000px)").matches) {
 
 
 } else {
+  document.getElementById("background").style.backgroundImage =  "url('images/coveryoga.png')";
   $("button").click(function() {
     $("#text").toggle("slow");
     if ($(".hide").css("visibility") == "visible")
