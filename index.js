@@ -1,30 +1,48 @@
+if (window.matchMedia("(max-width: 1000px)").matches) {
+  function positionMobile(i) {
 
-$("button").click(function(){
-  $("#text").toggle("slow");
-  if ($(".hide").css("visibility") == "visible")
-    $(".hide").css("visibility", "hidden");
-  else
-    $(".hide").css("visibility", "visible");
-});
+    var image = ".image" + i;
+    var hide = ".hide" + i;
+
+    $(image).css("width", "100%");
+    $(hide).toggle();
+
+  };
+
+  for (i = 1; i <= 12; i++) {
+    positionMobile(i)
+  };
 
 
-function position(i) {
 
-  var image = ".image" + i;
-  var hide = ".hide" + i;
+} else {
+  $("button").click(function() {
+    $("#text").toggle("slow");
+    if ($(".hide").css("visibility") == "visible")
+      $(".hide").css("visibility", "hidden");
+    else
+      $(".hide").css("visibility", "visible");
+  });
 
-  $(image)
-  .on("mouseenter", function() {
-      $(this).css("width", "100%");
-      $(hide).toggle();
-    })
-  .on("mouseleave", function() {
-      $(this).css("width", "90%");
-      $(hide).toggle();
-    })
 
-};
+  function position(i) {
 
-for (i = 1; i <= 12; i++) {
-  position(i)
-};
+    var image = ".image" + i;
+    var hide = ".hide" + i;
+
+    $(image)
+      .on("mouseenter", function() {
+        $(this).css("width", "100%");
+        $(hide).toggle();
+      })
+      .on("mouseleave", function() {
+        $(this).css("width", "90%");
+        $(hide).toggle();
+      })
+
+  };
+
+  for (i = 1; i <= 12; i++) {
+    position(i)
+  };
+}

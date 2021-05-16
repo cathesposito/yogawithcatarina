@@ -1,9 +1,12 @@
 body {
+  font-family: "Montserrat";
+}
+
+.background{
   background-image: url('images/coveryoga.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: "Montserrat";
 }
 
 a:any-link {
@@ -22,11 +25,28 @@ a:hover {
   height: 900px;
 }
 
-.text {
-  transform: translate(100px, 300px);
-}
-
 .footer {
   text-align: center;
-  transform: translateY(800px);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    height: 2000px;
+  }
+  .text {
+    transform: translate(-95px, 850px);
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .text {
+    transform: translate(50px, 300px);
+  }
+}
+
+@media (min-width: 1400px) {
+  .text {
+    transform: translate(100px, 300px);
+  }
 }
