@@ -9,6 +9,15 @@ h1{
   left: 40%;
 }
 
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+li{
+  margin-bottom: 8px;
+}
+
 .h1Ed1{
   left: 43%;
 }
